@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: libcbor
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/PJK/libcbor/archive/v{{ version }}.tar.gz
-  sha256: da81e4f9333e0086d4e2745183c7052f04ecc4dbcffcf910029df24f103c15d1
+  sha256: 4f79c6a9e587aaf877f1c4e74a842a599f2b56b5afb6bf59e51bc643b4f69ba0
 
 build:
   number: 0
